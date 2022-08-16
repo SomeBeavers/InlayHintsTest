@@ -4,39 +4,47 @@ public partial class Typing
 {
     public void Test2()
     {
-        string test = "";
-        Test(test/*caret*/);
-        Test(test/*caret*/);
-        Test(test/*caret*/);
-        Test(test/*caret*/);
-        Test(test/*caret*/);
-        Test(test/*caret*/);
-        Test(test/*caret*/);
-        Test(test/*caret*/);
-        Test(test/*caret*/);
-        Test(test/*caret*/);
-        Test(test/*caret*/);
-        Test(test/*caret*/);
-        Test(test/*caret*/);
-        Test(test/*caret*/);
-        Test(test/*caret*/);
-        Test(test/*caret*/);
-        Test(test/*caret*/);
-        Test(test/*caret*/);
-        Test(test/*caret*/);
-        Test(test/*caret*/);
-        Test(test/*caret*/);
-        Test(test/*caret*/);
-        Test(test/*caret*/);
-        Test(test/*caret*/);
-        Test(test/*caret*/);
-        Test(test/*caret*/);
-        Test(test/*caret*/);
-        Test(test/*caret*/);
-        Test(test/*caret*/);
-        Test(test/*caret*/);
-        Test(test/*caret*/);
-        /*caret*/AnotherTestMethod4(test);
+        var test = "";
+
+        #region MyRegion
+
+        Test(test /*caret*/);
+        Test(test /*caret*/);
+        Test(test /*caret*/);
+        Test(test /*caret*/);
+        Test(test /*caret*/);
+        Test(test /*caret*/);
+        Test(test /*caret*/);
+        Test(test /*caret*/);
+        Test(test /*caret*/);
+        Test(test /*caret*/);
+        Test(test /*caret*/);
+        Test(test /*caret*/);
+        Test(test /*caret*/);
+        Test(test /*caret*/);
+        Test(test /*caret*/);
+        Test(test /*caret*/);
+        Test(test /*caret*/);
+        Test(test /*caret*/);
+        Test(test /*caret*/);
+        Test(test /*caret*/);
+        Test(test /*caret*/);
+        Test(test /*caret*/);
+        Test(test /*caret*/);
+        Test(test /*caret*/);
+        Test(test /*caret*/);
+        Test(test /*caret*/);
+        Test(test /*caret*/);
+        Test(test /*caret*/);
+        Test(test /*caret*/);
+        Test(test /*caret*/);
+        Test(test /*caret*/);
+
+        #endregion
+
+
+        /*caret*/
+        AnotherTestMethod4(test);
     }
 
     private void AnotherTestMethod4(string test)

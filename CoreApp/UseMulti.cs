@@ -8,4 +8,4 @@ public class UseMulti
     {
         new Multi1().Test(a);
     }
-}
+}// a

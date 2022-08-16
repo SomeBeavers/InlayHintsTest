@@ -2,44 +2,47 @@
 
 public class Refactorings
 {
-    private static void MoveMe(int intParameter)
+    /// <summary>
+    /// </summary>
+    /// <param name="parameterIsHere">This is a cool documentation :)</param>
+    public static void UseMe2(string parameterIsHere)
     {
+        Console.WriteLine("");
+        new List<string>().Add(parameterIsHere);
     }
 
     public static void UseMoveMe()
     {
-        int a = 2;
-        int a1 = 2;
-        int a2 = 2;
-        int a3 = 2;
-        int a4 = 2;
-        int a5 = 2;
-        int a6 = 2;
-        int a7 = 2;
-        int a8 = 2;
-        int a9 = 2;
-        int a0 = 2;
-        int a = 2;
-        int a = 2;
-        int a = 2;
-        int a = 2;
-        int a = 2;
-        int a = 2;
-        int a = 2;
-        int a = 2;
-        int a = 2;
-        int a = 2;
-        int a = 2;
-        int a = 2;
-        int a = 2;
-        int a = 2;
-        int a = 2;
-        int a = 2;
-        MoveMe(a);
-    }
-}
+        var a  = 2;
+        var a1 = 2;
+        var a2 = 2;
+        var a3 = 2;
+        var a4 = 2;
+        var a5 = 2;
+        var a6 = 2;
+        var a7 = 2;
+        var a8 = 2;
+        var a9 = 2;
+        var a0 = 2;
+        //int a = 2;
+        //int a = 2;
+        //int a = 2;
+        //int a = 2;
+        //int a = 2;
+        //int a = 2;
+        //int a = 2;
+        //int a = 2;
+        //int a = 2;
+        //int a = 2;
+        //int a = 2;
+        //int a = 2;
+        //int a = 2;
+        //int a = 2;
+        //int a = 2;
+        //int a = 2;
 
-public class Refactorings2
-{
-    //private static void MoveMe(int a) { }
+
+        Refactorings2.MoveMe(a);
+        //UseMe2(a);
+    }
 }
