@@ -1,6 +1,6 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:String x:Key="/Default/CodeEditing/Intellisense/CodeCompletion/IntellisenseGloballyEnabled/IntellisenseEnabled/@EntryValue">Enabled</s:String>
-	<s:Boolean x:Key="/Default/CodeInspection/Highlighting/IdentifierHighlightingEnabled/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeInspection/Highlighting/IdentifierHighlightingEnabled/@EntryValue">False</s:Boolean>
 	<s:Boolean x:Key="/Default/CodeStyle/CodeCleanup/CleanupOnSave/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/CodeStyle/CodeCleanup/SaveAfterCleanup/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/INT_ALIGN_ASSIGNMENTS/@EntryValue">True</s:Boolean>
@@ -27,11 +27,13 @@
 	<s:Boolean x:Key="/Default/Environment/InlayHints/CSharpParameterNameHintsOptions/HideIfIntentionOfArgumentIsClearFromUsage/@EntryValue">False</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/InlayHints/CSharpParameterNameHintsOptions/HideIfIntentionOfFirstParameterIsClearFromMethodName/@EntryValue">False</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/InlayHints/CSharpParameterNameHintsOptions/HideIfMethodIsAnnotatedAsStringFormatMethod/@EntryValue">False</s:Boolean>
-	<s:String x:Key="/Default/Environment/InlayHints/CSharpParameterNameHintsOptions/ShowParameterNameHints/@EntryValue">Always</s:String>
+	<s:String x:Key="/Default/Environment/InlayHints/CSharpParameterNameHintsOptions/ShowParameterNameHints/@EntryValue">Never</s:String>
 	<s:Boolean x:Key="/Default/Environment/InlayHints/CSharpTypeConversionHintsOptions/ShowHintsInSimplifiedMode/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/InlayHints/CSharpTypeConversionHintsOptions/ShowOnlyUserDefinedConversions/@EntryValue">False</s:Boolean>
+	<s:String x:Key="/Default/Environment/InlayHints/GeneralInlayHintsOptions/DefaultMode/@EntryValue">Always</s:String>
 	<s:Boolean x:Key="/Default/Environment/InlayHints/GeneralInlayHintsOptions/EnableInlayHints/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/InlayHints/GeneralVirtualIndentingOptions/FixAlignmentForInlayHints/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/Environment/InlayHints/VBParameterNameHintsOptions/ShowParameterNameHints/@EntryValue">PushToShowHints</s:String>
 	<s:Boolean x:Key="/Default/Environment/InlayHints/XamlInlayHintsOptions2/HideHintForTemplateBindingIfDataContextHasBeenPresented/@EntryValue">False</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/InlayHints/XamlInlayHintsOptions2/ShowFullQualifiedNamesForDataContextAttribute/@EntryValue">True</s:Boolean>
 	<s:Double x:Key="/Default/Environment/IntraTextAdornment/ScaleFactor/@EntryValue">1</s:Double>
