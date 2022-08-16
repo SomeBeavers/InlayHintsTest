@@ -17,6 +17,8 @@
 	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/INT_ALIGN_SWITCH_SECTIONS/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/INT_ALIGN_VARIABLES/@EntryValue">True</s:Boolean>
 	<s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/WRAP_PARAMETERS_STYLE/@EntryValue">CHOP_ALWAYS</s:String>
+	<s:Boolean x:Key="/Default/Debugger/DataTipsEnabled/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Debugger/UseEditorTextFontForEditorAdornments/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/Editor/QuickInfo/EnableQuickInfo/@EntryValue">True</s:Boolean>
 	<s:String x:Key="/Default/Environment/ExternalSources/NavigationMode/@EntryValue">Sources</s:String>
 	<s:String x:Key="/Default/Environment/InlayHints/CSharpParameterNameHintsOptions/ExclusionList/=912f132c_002D11ec_002D40c6_002D8d6b_002D37e06aaa6dea/@EntryIndexedValue"></s:String>
@@ -32,7 +34,11 @@
 	<s:Boolean x:Key="/Default/Environment/InlayHints/CSharpTypeConversionHintsOptions/ShowOnlyUserDefinedConversions/@EntryValue">False</s:Boolean>
 	<s:String x:Key="/Default/Environment/InlayHints/GeneralInlayHintsOptions/DefaultMode/@EntryValue">Always</s:String>
 	<s:Boolean x:Key="/Default/Environment/InlayHints/GeneralInlayHintsOptions/EnableInlayHints/@EntryValue">True</s:Boolean>
+	<s:Int64 x:Key="/Default/Environment/InlayHints/GeneralVirtualIndentingOptions/CSharpVirtualFormat/INDENT_SIZE/@EntryValue">13</s:Int64>
+	<s:Boolean x:Key="/Default/Environment/InlayHints/GeneralVirtualIndentingOptions/CSharpVirtualFormat/USE_INDENT_FROM_VS/@EntryValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/Environment/InlayHints/GeneralVirtualIndentingOptions/EnableVirtualIndenting/@EntryValue">False</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/InlayHints/GeneralVirtualIndentingOptions/FixAlignmentForInlayHints/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Environment/InlayHints/GeneralVirtualIndentingOptions/UseVirtualIndentSettings/@EntryValue">True</s:Boolean>
 	<s:String x:Key="/Default/Environment/InlayHints/VBParameterNameHintsOptions/ShowParameterNameHints/@EntryValue">PushToShowHints</s:String>
 	<s:Boolean x:Key="/Default/Environment/InlayHints/XamlInlayHintsOptions2/HideHintForTemplateBindingIfDataContextHasBeenPresented/@EntryValue">False</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/InlayHints/XamlInlayHintsOptions2/ShowFullQualifiedNamesForDataContextAttribute/@EntryValue">True</s:Boolean>

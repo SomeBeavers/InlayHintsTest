@@ -6,7 +6,7 @@ namespace FrameworkLib
     {
         public void Test()
         {
-            MyTask().Result.Length
+            //MyTask().Result.Length
         }
 
         public Task MyTask()
