@@ -1,8 +1,8 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:String x:Key="/Default/CodeEditing/Intellisense/CodeCompletion/IntellisenseGloballyEnabled/IntellisenseEnabled/@EntryValue">Enabled</s:String>
 	<s:Boolean x:Key="/Default/CodeInspection/Highlighting/IdentifierHighlightingEnabled/@EntryValue">False</s:Boolean>
-	<s:Boolean x:Key="/Default/CodeStyle/CodeCleanup/CleanupOnSave/@EntryValue">True</s:Boolean>
-	<s:Boolean x:Key="/Default/CodeStyle/CodeCleanup/SaveAfterCleanup/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeStyle/CodeCleanup/CleanupOnSave/@EntryValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeStyle/CodeCleanup/SaveAfterCleanup/@EntryValue">False</s:Boolean>
 	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/INT_ALIGN_ASSIGNMENTS/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/INT_ALIGN_BINARY_EXPRESSIONS/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/INT_ALIGN_COMMENTS/@EntryValue">True</s:Boolean>
@@ -21,6 +21,14 @@
 	<s:Boolean x:Key="/Default/Debugger/UseEditorTextFontForEditorAdornments/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/Editor/QuickInfo/EnableQuickInfo/@EntryValue">False</s:Boolean>
 	<s:String x:Key="/Default/Environment/ExternalSources/NavigationMode/@EntryValue">Sources</s:String>
+	<s:Boolean x:Key="/Default/Environment/InlayHints/CppAggregateHintsOptions/HideAggregateHintIfIntentionOfArgumentIsClearFromUsage/@EntryValue">False</s:Boolean>
+	<s:String x:Key="/Default/Environment/InlayHints/CppOtherInlayHintsOptions/ShowArrayIndexHints/@EntryValue">Always</s:String>
+	<s:Boolean x:Key="/Default/Environment/InlayHints/CppParameterNameHintsOptions2/HideForBuilderLikeMethods/@EntryValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/Environment/InlayHints/CppParameterNameHintsOptions2/HideForMethodsWithSameNamedNumberedParameters/@EntryValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/Environment/InlayHints/CppParameterNameHintsOptions2/HideForNonLiterals/@EntryValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/Environment/InlayHints/CppParameterNameHintsOptions2/HideIfIntentionOfArgumentIsClearFromUsage/@EntryValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/Environment/InlayHints/CppParameterNameHintsOptions2/HideIfIntentionOfFirstParameterIsClearFromMethodName/@EntryValue">False</s:Boolean>
+	<s:String x:Key="/Default/Environment/InlayHints/CppParameterNameHintsOptions2/ShowParameterNameHintsInMacroCalls/@EntryValue">Default</s:String>
 	<s:String x:Key="/Default/Environment/InlayHints/CSharpOtherInlayHintsOptions/ShowMissingConstructHints/@EntryValue">Always</s:String>
 	<s:String x:Key="/Default/Environment/InlayHints/CSharpOtherInlayHintsOptions/ShowResourcesDisposePoints/@EntryValue">Always</s:String>
 	<s:String x:Key="/Default/Environment/InlayHints/CSharpParameterNameHintsOptions/ExclusionList/=912f132c_002D11ec_002D40c6_002D8d6b_002D37e06aaa6dea/@EntryIndexedValue"></s:String>

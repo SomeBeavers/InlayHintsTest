@@ -41,7 +41,7 @@ public class AllTypesOfHints
         };
 
         new List<int>().Where(x => x == 1);
-
+        
         new List<MyInnerClass>().Where(x =>
             x.Name.Contains("a")
                 .ToString()
@@ -52,6 +52,13 @@ public class AllTypesOfHints
         var equals = task
             .AsyncState
             .Equals("");
+
+        // type conversion hints
+        ConvertMe(new MyInnerClass());
+    }
+
+    public void ConvertMe(MyInnerClass2 myInnerClass2)
+    {
     }
 }
 
@@ -62,4 +69,9 @@ public class MyInnerClass2
 public class MyInnerClass
 {
     public string Name { get; set; }
+
+    public static implicit operator MyInnerClass2(MyInnerClass v)
+    {
+        return new MyInnerClass2();
+    }
 }

@@ -127,11 +127,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\..\Users\Lilia.Shamsutdinova\Downloads\NewClass1.cpp" />
     <ClCompile Include="Cpp.cpp" />
     <ClCompile Include="NewClass1.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\..\Users\Lilia.Shamsutdinova\Downloads\NewClass1.h" />
     <ClInclude Include="NewClass1.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\..\Users\Lilia.Shamsutdinova\Downloads\array.cpp (1).txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

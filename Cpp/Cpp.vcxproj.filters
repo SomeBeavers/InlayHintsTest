@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Perf">
+      <UniqueIdentifier>{a39d6c35-b565-461a-bc0c-82cc4736824d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Cpp.cpp">
@@ -21,10 +24,21 @@
     <ClCompile Include="NewClass1.cpp">
       <Filter>Header Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\Users\Lilia.Shamsutdinova\Downloads\NewClass1.cpp">
+      <Filter>Perf</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="NewClass1.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\..\Users\Lilia.Shamsutdinova\Downloads\NewClass1.h">
+      <Filter>Perf</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\..\Users\Lilia.Shamsutdinova\Downloads\array.cpp (1).txt">
+      <Filter>Perf</Filter>
+    </Text>
   </ItemGroup>
 </Project>
