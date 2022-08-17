@@ -19,8 +19,10 @@
 	<s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/WRAP_PARAMETERS_STYLE/@EntryValue">CHOP_ALWAYS</s:String>
 	<s:Boolean x:Key="/Default/Debugger/DataTipsEnabled/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/Debugger/UseEditorTextFontForEditorAdornments/@EntryValue">True</s:Boolean>
-	<s:Boolean x:Key="/Default/Environment/Editor/QuickInfo/EnableQuickInfo/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Environment/Editor/QuickInfo/EnableQuickInfo/@EntryValue">False</s:Boolean>
 	<s:String x:Key="/Default/Environment/ExternalSources/NavigationMode/@EntryValue">Sources</s:String>
+	<s:String x:Key="/Default/Environment/InlayHints/CSharpOtherInlayHintsOptions/ShowMissingConstructHints/@EntryValue">Always</s:String>
+	<s:String x:Key="/Default/Environment/InlayHints/CSharpOtherInlayHintsOptions/ShowResourcesDisposePoints/@EntryValue">Always</s:String>
 	<s:String x:Key="/Default/Environment/InlayHints/CSharpParameterNameHintsOptions/ExclusionList/=912f132c_002D11ec_002D40c6_002D8d6b_002D37e06aaa6dea/@EntryIndexedValue"></s:String>
 	<s:Boolean x:Key="/Default/Environment/InlayHints/CSharpParameterNameHintsOptions/ExclusionList/=912f132c_002D11ec_002D40c6_002D8d6b_002D37e06aaa6dea/@EntryIndexRemoved">True</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/InlayHints/CSharpParameterNameHintsOptions/HideForBuilderLikeMethods/@EntryValue">False</s:Boolean>
