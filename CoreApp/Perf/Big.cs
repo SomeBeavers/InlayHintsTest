@@ -1,4 +1,4 @@
-﻿namespace CoreApp;
+﻿/*namespace CoreApp;
 
 public class AllTypesOfHints
 {
@@ -619,6 +619,7 @@ public class AllTypesOfHints
         int                                               age)
     {
         //return null;
+        //return null;
         // missing returns
     }
 
@@ -638,7 +639,13 @@ public class AllTypesOfHints
 
         // type name hints
         var x = new
+        {
+        };
+
+        var z = new
         {
+            Name = "my name",
+            Surname = "my surname"
         };
 
         var y = new
@@ -11094,4 +11101,4 @@ public class MyInnerClass
     {
         return new MyInnerClass2();
     }
-}
+}*/

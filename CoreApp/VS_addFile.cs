@@ -16,6 +16,12 @@ internal class VS_addFile
 
     private void UseTest()
     {
+        string renamedName = "test renamed";
+        Test(renamedName);
+    }
+
+    private void UseTest2()
+    {
         Test(Name);
     }
 }
